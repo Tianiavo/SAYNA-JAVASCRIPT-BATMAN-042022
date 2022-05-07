@@ -1,0 +1,151 @@
+    /*General*/
+    
+     :root {
+        --yellow-ad-color: #ffff00;
+        --jaune-ad-color: #f8f184;
+        --blue-ad-color: #19587D;
+        --red-ad-color: #b11313;
+        --black-ad-color: #0D0E09;
+        --white-ad-color: #ffffff;
+        --noir-ad-color: #000000;
+        --gris-ad-color: #C4C4C4;
+        --yellow-ad-color: #EDDEBF #890008;
+        --yellow-ad-color: #EDDEBF #19587D;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 2px solid rgba(255, 255, 255, 0.479);
+        background-color: #000000;
+        /*A MODIFIER LE STYLE*/
+    }
+    
+    .conteneur {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    /*barre de navigation*/
+    
+    header {
+        background-image: url("../Illustrations/Home/Bathome1.png");
+        padding-top: 50px;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    header .barnav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.479);
+        padding-bottom: 25px;
+    }
+    
+    header .menu ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .menu ul li {
+        padding-left: 70px;
+        font-size: 20px;
+    }
+    
+    header .menu ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    /*HEADER-BOTTOM*/
+    
+    header .header {
+        width: 50%;
+        margin: 100px auto;
+        color: white;
+        text-align: center;
+    }
+    
+    header .header .bold {
+        font-weight: bold;
+    }
+    
+    header .header .bouton {
+        background-color: rgba(255, 255, 255, 0.363);
+        padding: 15px 20px;
+        color: white;
+    }
+    /*SCROLL BAR*/
+    
+    #scrollbar {
+        position: fixed;
+        right: 0;
+        top: 50%;
+        width: 8em;
+        margin-top: -2.5em;
+        text-align: center;
+    }
+    /*DESIGN DE LA PARTIE BATMAN AU CINEMA*/
+    
+    main #cinema {
+        background-color: var(--noir-ad-color);
+    }
+    
+    main #cinema .cinema,
+    .nemesis,
+    .multimedia {
+        margin-top: 75px;
+        width: 80%;
+        color: var(--white-ad-color);
+        padding: 0 auto;
+        text-align: justify;
+    }
+    
+    #cinema .card-batman .batman1,
+    .nemesis1 {
+        padding-left: 20px;
+    }
+    
+    #cinema .card-batman,
+    .card-nemesis {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+    /*FORMULAIRE DE CONTACT*/
+    
+    #formulaire {
+        background-color: #154866;
+    }
+    /*FOOTER*/
+    
+    footer .footer {
+        margin-top: 50px;
+    }
+    
+    footer .footer .quotes {
+        color: var(--white-ad-color);
+        text-align: center;
+        width: 55%;
+        margin: 0 auto;
+    }
+    
+    footer .footer-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    
+    footer .footer-bottom .marques img {
+        padding-left: 15px;
+    }
+    
+    footer .footer-bottom .media-sociaux img {
+        padding-left: 25px;
+    }
